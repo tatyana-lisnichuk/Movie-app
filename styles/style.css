@@ -7,7 +7,7 @@ body{
  
 }
 form, #search-by-title-btn, #search-by-title-reset {
-  margin: auto 0.5rem;
+  margin: 0.5rem;
 }
 .movie{
   background-color: #373b69;
