@@ -22,7 +22,7 @@ function searchSubmit(event) {
   event.preventDefault();
   let title = userTitle.value;
   function getMovies() {
-    fetch('http://www.omdbapi.com/?s=' + title + '&apikey=91c1a05e')
+    fetch('https://www.omdbapi.com/?s=' + title + '&apikey=91c1a05e')
       .then((resp) => {
         // console.log(resp.json());
         return resp.json();
